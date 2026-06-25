@@ -104,7 +104,12 @@ const hotSearch = defineSource(async () => {
 
 const hotVideo = defineSource(async () => {
   const url = "https://api.bilibili.com/x/web-interface/popular"
-  const res: HotVideoRes = await myFetch(url)
+  const res: HotVideoRes = await myFetch(url, {
+    headers: {
+      Referer: "https://www.bilibili.com",
+      Cookie: "buvid3=test",
+    },
+  })
 
   return res.data.list.map(video => ({
     id: video.bvid,
@@ -121,7 +126,12 @@ const hotVideo = defineSource(async () => {
 
 const ranking = defineSource(async () => {
   const url = "https://api.bilibili.com/x/web-interface/ranking/v2"
-  const res: HotVideoRes = await myFetch(url)
+  const res: HotVideoRes = await myFetch(url, {
+    headers: {
+      Referer: "https://www.bilibili.com",
+      Cookie: "buvid3=test",
+    },
+  })
 
   return res.data.list.map(video => ({
     id: video.bvid,
@@ -149,3 +159,4 @@ export default defineSource({
   "bilibili-hot-video": hotVideo,
   "bilibili-ranking": ranking,
 })
+
