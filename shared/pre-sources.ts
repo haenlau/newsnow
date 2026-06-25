@@ -19,7 +19,7 @@ export const originSources = {
     home: "https://v2ex.com/",
     sub: {
       share: {
-        title: "最新分享",
+        title: "最新分�?,
         column: "tech",
       },
     },
@@ -46,7 +46,7 @@ export const originSources = {
     type: "realtime",
     column: "world",
     color: "red",
-    desc: "来自第三方网站: 早晨报",
+    desc: "来自第三方网�? 早晨�?,
     home: "https://www.zaobao.com",
   },
   "coolapk": {
@@ -54,7 +54,7 @@ export const originSources = {
     type: "hottest",
     column: "tech",
     color: "green",
-    title: "今日最热",
+    title: "今日最�?,
     home: "https://coolapk.com",
   },
   "mktnews": {
@@ -70,7 +70,7 @@ export const originSources = {
     },
   },
   "wallstreetcn": {
-    name: "华尔街见闻",
+    name: "华尔街见�?,
     color: "blue",
     column: "finance",
     home: "https://wallstreetcn.com/",
@@ -81,29 +81,13 @@ export const originSources = {
         title: "快讯",
       },
       news: {
-        title: "最新",
+        title: "最�?,
         interval: Time.Common,
       },
       hot: {
-        title: "最热",
+        title: "最�?,
         type: "hottest",
         interval: Time.Common,
-      },
-    },
-  },
-  "36kr": {
-    name: "36氪",
-    type: "realtime",
-    color: "blue",
-    home: "https://36kr.com",
-    column: "tech",
-    sub: {
-      quick: {
-        title: "快讯",
-      },
-      renqi: {
-        type: "hottest",
-        title: "人气榜",
       },
     },
   },
@@ -118,7 +102,7 @@ export const originSources = {
     name: "虎扑",
     home: "https://hupu.com",
     column: "china",
-    title: "主干道热帖",
+    title: "主干道热�?,
     type: "hottest",
     color: "red",
   },
@@ -154,13 +138,13 @@ export const originSources = {
     home: "https://www.thepaper.cn",
   },
   "sputniknewscn": {
-    name: "卫星通讯社",
+    name: "卫星通讯�?,
     color: "orange",
     column: "world",
     home: "https://sputniknews.cn",
   },
   "cankaoxiaoxi": {
-    name: "参考消息",
+    name: "参考消�?,
     color: "red",
     column: "world",
     interval: Time.Common,
@@ -186,7 +170,7 @@ export const originSources = {
     },
   },
   "cls": {
-    name: "财联社",
+    name: "财联�?,
     color: "red",
     column: "finance",
     home: "https://www.cls.cn",
@@ -219,7 +203,7 @@ export const originSources = {
     },
   },
   "gelonghui": {
-    name: "格隆汇",
+    name: "格隆�?,
     color: "blue",
     title: "事件",
     column: "finance",
@@ -258,13 +242,6 @@ export const originSources = {
     type: "hottest",
     home: "https://news.ycombinator.com/",
   },
-  "producthunt": {
-    name: "Product Hunt",
-    color: "red",
-    column: "tech",
-    type: "hottest",
-    home: "https://www.producthunt.com/",
-  },
   "github": {
     name: "Github",
     color: "gray",
@@ -274,31 +251,6 @@ export const originSources = {
       "trending-today": {
         title: "Today",
         type: "hottest",
-      },
-    },
-  },
-  "bilibili": {
-    name: "哔哩哔哩",
-    color: "blue",
-    home: "https://www.bilibili.com",
-    sub: {
-      "hot-search": {
-        title: "热搜",
-        column: "china",
-        type: "hottest",
-      },
-      "hot-video": {
-        title: "热门视频",
-        disable: "cf",
-        column: "china",
-        type: "hottest",
-      },
-      "ranking": {
-        title: "排行榜",
-        column: "china",
-        disable: "cf",
-        type: "hottest",
-        interval: Time.Common,
       },
     },
   },
@@ -316,7 +268,7 @@ export const originSources = {
     column: "world",
     color: "gray",
     interval: Time.Common,
-    desc: "不一定靠谱，多看多思考",
+    desc: "不一定靠谱，多看多思�?,
     home: "https://kaopu.news/",
   },
   "jin10": {
@@ -341,11 +293,11 @@ export const originSources = {
     disable: true,
     sub: {
       latest: {
-        title: "最新",
+        title: "最�?,
         home: "https://linux.do/latest",
       },
       hot: {
-        title: "今日最热",
+        title: "今日最�?,
         type: "hottest",
         interval: Time.Common,
         home: "https://linux.do/hot",
@@ -360,7 +312,7 @@ export const originSources = {
     disable: true,
   },
   "smzdm": {
-    name: "什么值得买",
+    name: "什么值得�?,
     column: "china",
     color: "red",
     type: "hottest",
@@ -375,21 +327,21 @@ export const originSources = {
     home: "https://www.nowcoder.com",
   },
   "sspai": {
-    name: "少数派",
+    name: "少数�?,
     column: "tech",
     color: "red",
     type: "hottest",
     home: "https://sspai.com",
   },
   "juejin": {
-    name: "稀土掘金",
+    name: "稀土掘�?,
     column: "tech",
     color: "blue",
     type: "hottest",
     home: "https://juejin.cn",
   },
   "ifeng": {
-    name: "凤凰网",
+    name: "凤凰�?,
     column: "china",
     color: "red",
     type: "hottest",
@@ -397,18 +349,18 @@ export const originSources = {
     home: "https://www.ifeng.com",
   },
   "chongbuluo": {
-    name: "虫部落",
+    name: "虫部�?,
     column: "china",
     color: "green",
     home: "https://www.chongbuluo.com",
     sub: {
       latest: {
-        title: "最新",
+        title: "最�?,
         interval: Time.Common,
         home: "https://www.chongbuluo.com/forum.php?mod=guide&view=newthread",
       },
       hot: {
-        title: "最热",
+        title: "最�?,
         type: "hottest",
         interval: Time.Common,
         home: "https://www.chongbuluo.com/forum.php?mod=guide&view=hot",
@@ -445,14 +397,6 @@ export const originSources = {
       },
     },
   },
-  "freebuf": {
-    name: "Freebuf",
-    column: "china",
-    title: "网络安全",
-    color: "green",
-    type: "hottest",
-    home: "https://www.freebuf.com/",
-  },
 
   "qqvideo": {
     name: "腾讯视频",
@@ -461,7 +405,7 @@ export const originSources = {
     home: "https://v.qq.com/",
     sub: {
       "tv-hotsearch": {
-        title: "热搜榜",
+        title: "热搜�?,
         type: "hottest",
         interval: Time.Common,
         home: "https://v.qq.com/channel/tv",
@@ -470,13 +414,13 @@ export const originSources = {
     },
   },
   "iqiyi": {
-    name: "爱奇艺",
+    name: "爱奇�?,
     column: "china",
     color: "green",
     home: "https://www.iqiyi.com",
     sub: {
       "hot-ranklist": {
-        title: "热播榜",
+        title: "热播�?,
         type: "hottest",
         interval: Time.Common,
         home: "https://www.iqiyi.com",
@@ -537,3 +481,4 @@ export function genSources() {
     }),
   )
 }
+

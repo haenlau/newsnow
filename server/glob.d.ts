@@ -1,9 +1,7 @@
 /* eslint-disable */
 
 declare module 'glob:./sources/{*.ts,**/index.ts}' {
-  export const _36kr: typeof import('./sources/_36kr')
   export const baidu: typeof import('./sources/baidu')
-  export const bilibili: typeof import('./sources/bilibili')
   export const cankaoxiaoxi: typeof import('./sources/cankaoxiaoxi')
   export const chongbuluo: typeof import('./sources/chongbuluo')
   export const cls: typeof import('./sources/cls/index')
@@ -11,7 +9,6 @@ declare module 'glob:./sources/{*.ts,**/index.ts}' {
   export const douban: typeof import('./sources/douban')
   export const douyin: typeof import('./sources/douyin')
   export const fastbull: typeof import('./sources/fastbull')
-  export const freebuf: typeof import('./sources/freebuf')
   export const gelonghui: typeof import('./sources/gelonghui')
   export const ghxi: typeof import('./sources/ghxi')
   export const github: typeof import('./sources/github')
@@ -28,7 +25,6 @@ declare module 'glob:./sources/{*.ts,**/index.ts}' {
   export const mktnews: typeof import('./sources/mktnews')
   export const nowcoder: typeof import('./sources/nowcoder')
   export const pcbeta: typeof import('./sources/pcbeta')
-  export const producthunt: typeof import('./sources/producthunt')
   export const qqvideo: typeof import('./sources/qqvideo')
   export const smzdm: typeof import('./sources/smzdm')
   export const solidot: typeof import('./sources/solidot')
