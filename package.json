@@ -1,15 +1,15 @@
 {
-  "name": "newsnow",
+  "name": "air1-news",
   "type": "module",
   "version": "0.0.39",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "author": {
-    "url": "https://github.com/ourongxing/",
-    "email": "orongxing@gmail.com",
-    "name": "ourongxing"
+    "url": "https://github.com/haenlau/",
+    "email": "102852113+haenlau@users.noreply.github.com",
+    "name": "haenlau"
   },
-  "homepage": "https://github.com/ourongxing/newsnow",
+  "homepage": "https://github.com/haenlau/newsnow",
   "scripts": {
     "dev": "npm run presource && vite dev",
     "build": "npm run presource && vite build",
@@ -21,7 +21,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.app.json",
     "release": "bumpp",
     "prepare": "simple-git-hooks",
-    "log": "wrangler pages deployment tail --project-name newsnow",
+    "log": "wrangler pages deployment tail --project-name air1-news",
     "test": "vitest -c vitest.config.ts"
   },
   "dependencies": {

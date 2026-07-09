@@ -1,11 +1,11 @@
 services:
-  newsnow:
-    image: ghcr.io/ourongxing/newsnow:latest
-    container_name: newsnow
+  air1-news:
+    image: ghcr.io/haenlau/newsnow:latest
+    container_name: air1-news
     ports:
       - '4444:4444'
     volumes:
-      - newsnow_data:/usr/app/.data
+      - air1_news_data:/usr/app/.data
     environment:
       - HOST=0.0.0.0
       - PORT=4444
@@ -17,5 +17,5 @@ services:
       - ENABLE_CACHE=true
 
 volumes:
-  newsnow_data:
-    name: newsnow_data
+  air1_news_data:
+    name: air1_news_data
